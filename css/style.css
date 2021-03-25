@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/Poppins-Medium.woff') format('woff');
+    src: url('./fonts/Poppins-Medium.woff') format('woff');
     font-display: swap;
     font-weight: 500;
     font-style: normal;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/Poppins-SemiBold.woff') format('woff');
+    src: url('./fonts/Poppins-SemiBold.woff') format('woff');
     font-display: swap;
     font-weight: 600;
     font-style: normal;
@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/Poppins-Bold.woff') format('woff');
+    src: url('./fonts/Poppins-Bold.woff') format('woff');
     font-display: swap;
     font-weight: 700;
     font-style: normal;
@@ -35,7 +35,7 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('/fonts/Poppins-Regular.woff') format('woff');
+    src: url('./fonts/Poppins-Regular.woff') format('woff');
     font-display: swap;
     font-weight: 400;
     font-style: normal;
@@ -153,7 +153,7 @@ img {
     padding-top: 189px;
     padding-bottom: 100px;
     min-height: 811px;
-    background-image: url(/img/hero-bg.jpg);
+    background-image: url(./img/hero-bg.jpg);
     background-position: center;        /*изображение по центру всегда*/
     background-size: cover;            /*изображение не будет повторяться*/
     background-repeat: no-repeat;        /*изображение всегда растянуто*/
@@ -274,7 +274,7 @@ img {
 .footer {
     padding-top: 300px;
     color: #fff;
-    background-image: url(/img/footer-bg.jpg);
+    background-image: url(./img/footer-bg.jpg);
     background-position: center;        /*изображение по центру всегда*/
     background-size: cover;            /*изображение не будет повторяться*/
     background-repeat: no-repeat; 
@@ -409,24 +409,24 @@ img {
 
 
 .social-link-fb {
-    background-image: url("/img/facebook.svg");
+    background-image: url("./img/facebook.svg");
     
 }
 
 .social-link-tw {
-    background-image: url("/img/twitter.svg");
+    background-image: url("./img/twitter.svg");
     
 }
 
 
 .social-link-g {
-    background-image: url("/img/google-plus.svg");
+    background-image: url("./img/google-plus.svg");
     
 }
 
 
 .social-link-in {
-    background-image: url("/img/linkedin.svg");
+    background-image: url("./img/linkedin.svg");
     
 }
 
